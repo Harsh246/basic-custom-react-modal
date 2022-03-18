@@ -30,6 +30,12 @@ state={
 <br>
       
 {/*  conditional rendering of modal based on state. */}
+
+<br>
+
+        const { modal} = this.state;
+        
+<br>
       
-        {show ? <Modal title={modal.title} description={modal.description} close={this.closeModal} /> : null}
+        {modal.show ? <Modal title={modal.title} description={modal.description} close={this.closeModal} /> : null}
         
