@@ -3,6 +3,7 @@
 
 
 { create a show state and toggle it}
+<br>
 
 state={
       modal: {
@@ -12,6 +13,7 @@ state={
              }
       }
       
+<br>
  closeModal = () => {
  this.setState({
                       modal:
@@ -21,7 +23,11 @@ state={
                             description:'Bhai kya kar raha hai tu' 
                       }
                  });
+                 
+<br>
       ----------------------------------------------------------------------------------------------------------------------
+      
+<br>
       
 {/*  conditional rendering of modal based on state. */}
       
